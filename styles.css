@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-me h1 {
+    color: #e67e22;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-me h2 {
+    color: #555;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.about-me p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.about-me .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.about-me .button {
+    display: inline-block;
+    padding: 12px 18px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.about-me .button:hover {
+    background-color: #2980b9;
+}
+
+.game h1 {
+    color: #e67e22;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.game .game-board {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.game .card {
+    width: 60px;
+    height: 60px;
+    background: #d6eaff;
+    border: 2px solid #000;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+.game .controls {
+    margin: 20px auto;
+}
+
+.game #prediction {
+    padding: 5px;
+    width: 120px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.game button {
+    padding: 10px 15px;
+    border: none;
+    background: #e67e22;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.game button:hover {
+    background: #cf6d1a;
+}
+
+.game .status {
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+.game #reset-btn {
+    margin-top: 20px;
+    background: #27ae60;
+}
+
+.game #reset-btn:hover {
+    background: #1e944c;
+}
